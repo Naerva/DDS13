@@ -1,0 +1,219 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Lobster&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="icon" href="assets/img/icon.png">
+  
+  <title>Bull Steak House</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div>
+        <img src="https://i.ibb.co/2sqbwh5/bull-logo-png-4.png" alt="steakhouse logo" class="logo">
+        <ul class="main-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#reservation" class="action-btn">Reservas</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main-text">
+      <h1>Bem Vindo</h1>
+      <hr>
+      <h2>Para a nossa casa de bifes e churrascos, <br> um lugar para comer carne como você nunca viu antes.</h2>
+      <a href="#reservation" class="reservation-btn">Reservas</a>
+      <a href="#menu" class="menu-btn">Menu</a>
+    </div>
+
+  </header>
+  <section class="story">
+    <div id="about" class="about-us">Sobre</div>
+    <hr>
+    <p class="main-p"> Nossa churrascaria fica a poucos passos do icônico marco do Cristo Redentor, combinando a energia vibrante de Morrinhos com um autêntico cenário de churrascaria. No centro do nosso menu de churrascaria está nossa coleção clássica de carne bovina BRL Prime, que é maturada a seco por 30 a 35 dias em nossa caixa de envelhecimento interna.
+
+    </p>
+  </section>
+  <section id="menu" class="menu clearfix">
+    <div class="menu-gallery">Galeria</div>
+    <hr>
+    <div class="gallery">
+      <ul class="showcase">
+        <li>
+          <figure class="photos">
+            <img src="https://i.ibb.co/xXF90S9/1.png" alt="">
+            <figcaption>House Special</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="photos">
+            <img src="https://i.ibb.co/tD5Dvhv/2.png" alt="">
+            <figcaption>Mini Turf</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="photos">
+            <img src="https://i.ibb.co/NnzCcKr/3.png" alt="">
+            <figcaption>Surf And Turf</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="photos">
+            <img src="https://i.ibb.co/dQB4Qmr/10.png" alt="">
+            <figcaption>House Burger</figcaption>
+          </figure>
+        </li>
+      </ul>
+      <ul class="showcase">
+        <li>
+          <figure class="photos">
+            <img src="https://i.ibb.co/KVWY7kY/5.png" alt="">
+            <figcaption>Dry Aged Steak</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="photos">
+            <img src="https://i.ibb.co/zfzqBC3/9.png" alt="">
+            <figcaption>Spicy Ribs</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="photos">
+            <img src="https://i.ibb.co/jT94YQp/8.png" alt="">
+            <figcaption>Chef's Special</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="photos">
+            <img src="https://i.ibb.co/480FQrq/4.png" alt="">
+            <figcaption>House Tacos</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="reservation" class="reservation">
+    <div class="reserve clearfix">Reservas</div>
+    <hr>
+    <div class="opening-times">
+      <img src="https://http2.mlstatic.com/D_NQ_NP_640983-MLB40418470262_012020-O.webp" alt="">
+    </div>
+
+    <form class="reservation-form" action="get">
+      <div class="form-row-first">
+        <div>
+          <label for="name">Nome Completo</label><br>
+          <input class="form-control" type="text" name="name" required><br>
+        </div>
+        <div>
+          <label for="email">E-mail</label><br>
+          <input class="form-control" type="email" name="email" required><br>
+        </div>
+        <div>
+          <label for="phone">Telefone</label><br>
+          <input class="form-control" type="tel" name="phone" required><br>
+        </div>
+      </div>
+      <div class="form-row-second">
+        <div>
+          <label for="date">Data</label><br>
+          <input class="form-control" type="date" name="date" required><br>
+        </div>
+        <div>
+          <label for="time">Hora</label><br>
+          <input class="form-control" type="time" name="time" required><br>
+        </div>
+        <div>
+          <label for="guests">Convidados</label><br>
+          <input class="form-control" type="number" name="guests" required><br>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <button class="reserve-btn">RESERVA</button>
+    </form>
+  </section>
+
+  <section class="customers clearfix">
+    <div>Nossos clientes nos amam</div>
+    <hr>
+    <div class="review-section">
+      <ul>
+        <li>
+          <div><img src="https://i.ibb.co/Yfg8dk4/p1.png" alt=""></div>
+          <div class="first-name">Helena</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="text-1">
+            Uma das melhores churrascarias que já estive, a comida é incrível e tem um gosto ótimo.
+          </div>
+        </li>
+        <li>
+          <div><img src="https://i.ibb.co/ng1fk9c/p2.png" alt=""></div>
+          <div class="second-name">Noah</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="text-2">
+            Grandes cortes de carne que provei ótimo.
+          </div>
+        </li>
+        <li>
+          <div><img src="https://i.ibb.co/R4sNTrt/p3.png" alt=""></div>
+          <div class="third-name">Heloisa</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="text-3">
+            Não deixe de pedir o especial do Chef! Vale cada centavo!
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="end-footer">
+    <footer>
+      <div>
+        <ul class="footer-left">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="social-icons">
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+        </ul>
+      </div>
+      <div>
+        <p>Este site foi desenvolvido bebendo muito <i class="fas fa-coffee"></i></p>
+      </div>
+
+    </footer>
+  </section>
+
+</body>
+
+</html>
